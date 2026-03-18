@@ -1,11 +1,11 @@
-# olistic's dotfiles
+# mato2593's dotfiles
 
 ## Installation
 
-Clone the repository wherever you want. (I like to keep it in `~/Projects/dotfiles`, with `~/dotfiles` as a symlink.)
+Clone the repository wherever you want. (I like to keep it in `~/Documents/Development/dotfiles`, with `~/dotfiles` as a symlink.)
 
 ```bash
-git clone https://github.com/olistic/dotfiles.git
+git clone https://github.com/mato2593/dotfiles.git
 ```
 
 ### Install

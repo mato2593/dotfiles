@@ -9,7 +9,7 @@ alias -- -="cd -"
 # Shortcuts
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
-alias p="cd ~/Projects"
+alias dev="cd ~/Documents/Development"
 alias g="git"
 
 # Use bat as cat replacement

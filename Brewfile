@@ -6,41 +6,26 @@
 cask 'brave-browser'
 cask 'firefox'
 cask 'google-chrome'
+cask 'arc'
 
 # Install developer tools.
-cask '1password-cli'
 cask 'claude-code'
 cask 'codex'
 cask 'cursor'
-cask 'docker-desktop'
 cask 'iterm2'
 cask 'postman'
 
 # Install productivity tools.
 cask 'caffeine'
-cask 'loom'
 cask 'notion'
-cask 'obsidian'
-cask 'raycast'
-cask 'zoom'
 
 # Install messaging apps.
-cask 'discord'
-cask 'signal'
 cask 'slack'
-cask 'telegram'
-cask 'whatsapp'
-
-# Install security & privacy tools.
-cask 'keybase'
-cask 'little-snitch'
-cask 'nordvpn'
 
 # Install fonts.
 cask 'font-jetbrains-mono-nerd-font'
 
 # Install other useful stuff.
-cask '1password'
 cask 'macwhisper'
 cask 'spotify'
 
@@ -48,10 +33,6 @@ cask 'spotify'
 ###############################################################################
 # Command-line tools                                                          #
 ###############################################################################
-
-# Install GnuPG.
-brew 'gnupg'
-brew 'pinentry-mac'
 
 # Install Zsh and plugins.
 brew 'zsh'
@@ -73,21 +54,12 @@ brew 'ripgrep'
 
 # Install other useful binaries.
 brew 'gh'
-brew 'ghostscript'
 brew 'git'
-brew 'git-lfs'
 brew 'imagemagick'
-brew 'poppler'
 brew 'mise'
-brew 'uv'
 brew 'starship'
 brew 'pv'
-brew 'redis'
-brew 'rename'
-brew 'ssh-copy-id'
-brew 'tesseract-lang'
 brew 'tree'
-brew 'watchman'
 brew 'zoxide'
 
 # Install mobile development tools.
