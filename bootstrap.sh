@@ -5,6 +5,7 @@ DOTFILES_DIR="$(cd "$(dirname "${0}")" && pwd)"
 # Files and directories to symlink to ~.
 SYMLINKS=(
   .aliases
+  .duti
   .editorconfig
   .exports
   .gitconfig
@@ -20,8 +21,12 @@ SYMLINKS=(
 # These directories must not be symlinked wholesale.
 DIR_SYMLINKS=(
   .claude/CLAUDE.md
+  .claude/commands
   .claude/settings.json
+  .config/ghostty/config
   .config/starship.toml
+  .config/zed/keymap.json
+  .config/zed/settings.json
   .gnupg/gpg-agent.conf
   .ssh/config
 )

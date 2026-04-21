@@ -31,11 +31,14 @@ brew bundle
 brew cleanup
 
 ###############################################################################
-# Node.js (via mise)                                                          #
+# JavaScript runtimes (via mise)                                              #
 ###############################################################################
 
 # Install and use latest release of Node.js.
 mise use --global node@latest
+
+# Install and use latest release of bun.
+mise use --global bun@latest
 
 # Install pnpm.
 mise use --global pnpm@latest
@@ -53,9 +56,6 @@ mise use --global python@latest
 # Install Python language server.
 uv tool install pyright
 
-# Install other tools.
-uv tool install it2
-
 ###############################################################################
 # Rust (via mise)                                                             #
 ###############################################################################
@@ -64,7 +64,7 @@ uv tool install it2
 mise use --global rust@latest
 
 # Install Rust language server.
-cargo install rust-analyzer
+rustup component add rust-analyzer
 
 ###############################################################################
 # Java (via mise)                                                             #
@@ -86,3 +86,16 @@ mise use --global foundry@latest
 
 # Install dotfiles.
 ./bootstrap.sh -f
+
+###############################################################################
+# Default applications (via duti)                                             #
+###############################################################################
+
+# Apply default app associations.
+if command -v duti > /dev/null && [[ -f ~/.duti ]]; then
+  while IFS= read -r line; do
+    # Skip comments and empty lines.
+    [[ "$line" =~ ^#.*$ || -z "$line" ]] && continue
+    duti -s $line
+  done < ~/.duti
+fi

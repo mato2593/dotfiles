@@ -12,6 +12,8 @@ cask 'arc'
 cask 'claude-code'
 cask 'codex'
 cask 'iterm2'
+cask 'conductor'
+cask 'ghostty'
 cask 'postman'
 cask 'zed'
 
@@ -25,6 +27,9 @@ cask 'slack'
 
 # Install fonts.
 cask 'font-jetbrains-mono-nerd-font'
+
+# Install media players.
+cask 'iina'
 
 # Install other useful stuff.
 cask 'macwhisper'
@@ -53,9 +58,22 @@ brew 'fzf'
 brew 'jq'
 brew 'ripgrep'
 
+# Install default app handler.
+brew 'duti'
+
+# Install linters and code quality tools.
+brew 'actionlint'
+brew 'ast-grep'
+brew 'oxlint'
+brew 'shellcheck'
+brew 'shfmt'
+brew 'zizmor'
+
 # Install other useful binaries.
 brew 'gh'
 brew 'git'
+brew 'macos-trash'
+brew 'git-lfs'
 brew 'imagemagick'
 brew 'mise'
 brew 'starship'
