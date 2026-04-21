@@ -11,13 +11,14 @@ cask 'arc'
 # Install developer tools.
 cask 'claude-code'
 cask 'codex'
-cask 'cursor'
 cask 'iterm2'
 cask 'postman'
+cask 'zed'
 
 # Install productivity tools.
 cask 'caffeine'
 cask 'notion'
+cask 'obsidian'
 
 # Install messaging apps.
 cask 'slack'
