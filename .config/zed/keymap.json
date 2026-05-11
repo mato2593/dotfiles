@@ -12,4 +12,9 @@
       "cmd-r s": "workspace::SaveWithoutFormat",
     },
   },
+  {
+    "bindings": {
+      "cmd-r f": "workspace::FormatAndSave"
+    }
+  }
 ]
