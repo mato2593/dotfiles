@@ -123,7 +123,7 @@
       "Read(~/Library/Keychains/**)"
     ]
   },
-  "model": "opus[1m]",
+  "model": "opus",
   "enableAllProjectMcpServers": false,
   "hooks": {
     "PreToolUse": [
@@ -165,6 +165,6 @@
     "swift-lsp@claude-plugins-official": true,
     "github@claude-plugins-official": true
   },
-  "effortLevel": "high",
+  "effortLevel": "medium",
   "teammateMode": "auto"
 }

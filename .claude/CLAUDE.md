@@ -9,7 +9,7 @@
 ## Philosophy
 
 - No speculative features — only build what's needed now
-- No premature abstraction — three similar lines beat a premature helper
+- No premature abstraction — three similar lines beat a premature helper. If a helper for a task is already built, use it
 - Replace, do NOT deprecate — if something is unused, delete it completely
 - Clarity over cleverness — straightforward code wins
 - Justify new dependencies — prefer the standard library when it's close enough
@@ -27,6 +27,9 @@
 ## Naming
 
 - Do NOT use abbreviations for variable names — spell them out for clarity (exceptions: universally understood short forms like `args`, `ctx`, `err`, `i`, `j`, `params`, `props`, `ref`)
+
+## Refactoring
+- If one of the max length hard limites is broken, fix it by extracting code, not by compacting lines. Readability comes first.
 
 ## Hard limits
 
@@ -54,3 +57,6 @@
 ## Worktrees
 
 - Worktree directory: `.worktrees/` (local to each project root)
+# graphify
+- **graphify** (`~/.claude/skills/graphify/SKILL.md`) - any input to knowledge graph. Trigger: `/graphify`
+When the user types `/graphify`, invoke the Skill tool with `skill: "graphify"` before doing anything else.
