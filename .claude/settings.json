@@ -122,7 +122,6 @@
       "Read(~/Library/Keychains/**)"
     ]
   },
-  "model": "opus",
   "enableAllProjectMcpServers": false,
   "hooks": {
     "PreToolUse": [
@@ -149,7 +148,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "\"/Users/mathiascabano/.local/share/mise/installs/node/25.9.0/bin/node\" \"/Users/mathiascabano/.claude/hooks/gsd-prompt-guard.js\"",
+            "command": "\"$HOME/.local/share/mise/shims/node\" \"$HOME/.claude/hooks/gsd-prompt-guard.js\"",
             "timeout": 5
           }
         ]
@@ -159,7 +158,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "\"/Users/mathiascabano/.local/share/mise/installs/node/25.9.0/bin/node\" \"/Users/mathiascabano/.claude/hooks/gsd-read-guard.js\"",
+            "command": "\"$HOME/.local/share/mise/shims/node\" \"$HOME/.claude/hooks/gsd-read-guard.js\"",
             "timeout": 5
           }
         ]
@@ -169,7 +168,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "\"/Users/mathiascabano/.local/share/mise/installs/node/25.9.0/bin/node\" \"/Users/mathiascabano/.claude/hooks/gsd-workflow-guard.js\"",
+            "command": "\"$HOME/.local/share/mise/shims/node\" \"$HOME/.claude/hooks/gsd-workflow-guard.js\"",
             "timeout": 5
           }
         ]
@@ -179,7 +178,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "bash \"/Users/mathiascabano/.claude/hooks/gsd-validate-commit.sh\"",
+            "command": "bash \"$HOME/.claude/hooks/gsd-validate-commit.sh\"",
             "timeout": 5
           }
         ]
@@ -190,7 +189,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "\"/Users/mathiascabano/.local/share/mise/installs/node/25.9.0/bin/node\" \"/Users/mathiascabano/.claude/hooks/gsd-check-update.js\""
+            "command": "\"$HOME/.local/share/mise/shims/node\" \"$HOME/.claude/hooks/gsd-check-update.js\""
           }
         ]
       },
@@ -198,7 +197,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "bash \"/Users/mathiascabano/.claude/hooks/gsd-session-state.sh\""
+            "command": "bash \"$HOME/.claude/hooks/gsd-session-state.sh\""
           }
         ]
       }
@@ -209,7 +208,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "\"/Users/mathiascabano/.local/share/mise/installs/node/25.9.0/bin/node\" \"/Users/mathiascabano/.claude/hooks/gsd-context-monitor.js\"",
+            "command": "\"$HOME/.local/share/mise/shims/node\" \"$HOME/.claude/hooks/gsd-context-monitor.js\"",
             "timeout": 10
           }
         ]
@@ -219,7 +218,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "\"/Users/mathiascabano/.local/share/mise/installs/node/25.9.0/bin/node\" \"/Users/mathiascabano/.claude/hooks/gsd-read-injection-scanner.js\"",
+            "command": "\"$HOME/.local/share/mise/shims/node\" \"$HOME/.claude/hooks/gsd-read-injection-scanner.js\"",
             "timeout": 5
           }
         ]
@@ -229,7 +228,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "bash \"/Users/mathiascabano/.claude/hooks/gsd-phase-boundary.sh\"",
+            "command": "bash \"$HOME/.claude/hooks/gsd-phase-boundary.sh\"",
             "timeout": 5
           }
         ]
@@ -238,7 +237,7 @@
   },
   "statusLine": {
     "type": "command",
-    "command": "\"/Users/mathiascabano/.local/share/mise/installs/node/25.9.0/bin/node\" \"/Users/mathiascabano/.claude/hooks/gsd-statusline.js\""
+    "command": "\"$HOME/.local/share/mise/shims/node\" \"$HOME/.claude/hooks/gsd-statusline.js\""
   },
   "enabledPlugins": {
     "frontend-design@claude-plugins-official": true,
