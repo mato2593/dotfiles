@@ -15,6 +15,7 @@ cask 'iterm2'
 cask 'conductor'
 cask 'ghostty'
 cask 'postman'
+cask 'stablyai/orca/orca'
 cask 'zed'
 
 # Install productivity tools.
